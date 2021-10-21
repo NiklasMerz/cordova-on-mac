@@ -26,4 +26,10 @@ function onDeviceReady() {
 
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
+
+    for (let prop in device) {
+        if (device.hasOwnProperty(prop)) {
+            document.getElementById('info').textContent += '\n' + prop + ': ' + device[prop];
+        }
+    }
 }

@@ -1,6 +1,6 @@
 # Cordova Mac Test App
 
-Add iOS platform working with Mac: `cordova platform add github:apache/cordova-ios#xcode-copy`
+Add iOS platform working with Mac: `cordova platform add github:apache/cordova-ios#m1-workaround`
 
 ## TODO
 
