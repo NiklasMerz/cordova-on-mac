@@ -13,8 +13,9 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "devDependencies": {
+    "cordova": "^10.0.0",
     "cordova-ios": "github:apache/cordova-ios#m1-workaround",
-    "cordova-osx": "^6.0.0",
+    "cordova-osx": "file:../../apache/cordova-osx",
     "cordova-plugin-device": "^2.0.3",
     "cordova-plugin-whitelist": "^1.3.5"
   },
@@ -24,8 +25,8 @@
       "cordova-plugin-device": {}
     },
     "platforms": [
-      "osx",
-      "ios"
+      "ios",
+      "osx"
     ]
   }
 }
